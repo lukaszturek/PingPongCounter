@@ -1,0 +1,109 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main {
+	margin: 20px auto;
+	width: 400px;
+	box-shadow: 3px 3px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.picture {
+	border-bottom: 2px solid rgb(224, 223, 223)
+}
+
+.picture div {
+	height: 200px;
+	background: url("https://images.unsplash.com/photo-1636734909254-ff5c43927e10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80");
+	background-size: cover;
+	background-position: 0% 80%;
+}
+
+.picture h1 {
+	margin: 0;
+	padding: 0.5rem;
+	font-size: 0.75rem;
+}
+
+.score-show {
+	margin: 0.5rem;
+}
+
+.score-show h2 {
+	margin: 0;
+}
+
+.score-show p {
+	margin: 0.25rem 0;
+	font-size: 0.6rem;
+}
+
+.score-show div {
+	margin: 0.75rem 0;
+	font-size: 0.9rem;
+	font-weight: bold;
+}
+
+.score-show div input {
+	width: 40px;
+	border: 0.5px solid rgb(173, 173, 173);
+	border-radius: 10px;
+	padding-left: 14px;
+	font-size: inherit;
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-between;
+}
+
+.buttons button {
+	margin: 0;
+	width: 33%;
+	padding: 0.5rem 0;
+	color: white;
+	border-radius: 3px;
+}
+
+.buttons #addScore1 {
+	background-color: rgb(93, 205, 159);
+	border: 2px solid rgb(93, 205, 159);
+}
+
+.buttons #addScore1:hover,
+.buttons #addScore1:active {
+	background-color: white;
+	color: rgb(93, 205, 159);
+}
+
+.buttons #addScore2 {
+	background-color: rgb(112, 148, 238);
+	border: 2px solid rgb(112, 148, 238);
+}
+
+.buttons #addScore2:hover,
+.buttons #addScore2:active {
+	background-color: white;
+	color: rgb(112, 148, 238);
+}
+
+.buttons #reset {
+	background-color: rgb(255, 52, 100);
+	border: 2px solid rgb(255, 52, 100);
+}
+
+.buttons #reset:hover,
+.buttons #reset:active {
+	background-color: white;
+	color: rgb(255, 52, 100);
+}
